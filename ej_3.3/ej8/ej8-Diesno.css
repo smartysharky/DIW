@@ -1,0 +1,30 @@
+body {
+    color: black;
+    font-family: 'Courier', monospace;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+h1 {
+    color: #3366cc;
+    font-size: 24px;
+    text-shadow: 2px 2px #0000ff;
+    text-transform: capitalize;
+    word-spacing: 5px;
+}
+
+ul {
+    text-align: center;
+    text-decoration: underline;
+}
+
+a {
+    color: gray;
+    text-decoration: italic;
+}
+
+a:hover {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline double;
+}

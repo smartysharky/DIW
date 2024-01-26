@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./img/fondo.jpg);
+}
+
+.container {
+    margin: 20px auto;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+header nav ul li {
+    display: inline-block;
+    color: white;
+}
+
+header nav ul li a {
+    margin-right: 40px;
+}
+
+header nav ul li:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+}
+
+main div img {
+    width: 100%;
+}
+
+article h1 {
+    margin: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+article p {
+    margin: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+aside {
+    background-color: #537dca;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ad {
+    background-color: #4264a2;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 10px;
+}
+
+footer {
+    margin-top: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, .2);
+    color: white;
+}
+
+footer a {
+    color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 400px) {
+
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    header nav{
+        width: 100%;
+    }
+
+    header nav ul{
+        margin-top: 15px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, .2);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    header nav ul li a {
+        margin: 10px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .ad {
+        padding: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 10px;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+
+}

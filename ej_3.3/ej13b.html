@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            border: 2px solid #333;
+            padding: 10px;
+        }
+
+        .static {
+            background-color: #f0f0f0;
+            border: 2px solid #666;
+            padding: 10px;
+        }
+
+        .relative {
+            position: relative;
+            top: 20px;
+            background-color: #e0e0e0;
+            border: 2px solid #666;
+            padding: 10px;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #d0d0d0;
+            border: 2px solid #666;
+            padding: 10px;
+        }
+
+        .absolute {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background-color: #c0c0c0;
+            border: 2px solid #666;
+            padding: 10px;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 20px;
+            background-color: #b0b0b0;
+            border: 2px solid #666;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="static">1. Posición Estática</div>
+        <div class="relative">2. Posición Relativa</div>
+        <div class="fixed">3. Posición Fija</div>
+        <div class="absolute">4. Posición Absoluta</div>
+        <div class="sticky">5. Posición Sticky</div>
+    </div>
+
+</body>
+
+</html>

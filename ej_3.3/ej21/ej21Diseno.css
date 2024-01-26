@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+}
+
+.fixed-container {
+    width: 300px;
+    background-color: #3498db;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.variable-container {
+    width: calc(100% - 300px);
+    background-color: #e74c3c;
+    padding: 20px;
+    box-sizing: border-box;
+}

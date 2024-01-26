@@ -1,0 +1,32 @@
+/* Estilo para todos los elementos con el atributo 'class' */
+[class] {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Estilo para elementos con la clase 'special-paragraph' */
+[class="special-paragraph"] {
+    background-color: lightblue;
+}
+
+/* Estilo para elementos con el atributo 'data-category' igual a 'important' */
+[data-category="important"] {
+    font-weight: bold;
+}
+
+/* Estilo para enlaces con el atributo 'title' */
+a[title] {
+    color: red;
+    text-decoration: none;
+}
+
+/* Estilo para enlaces con el atributo 'href' que comienza con 'https://' */
+a[href^="https://"] {
+    font-weight: bold;
+}
+
+/* Estilo para enlaces con el atributo 'href' que contiene la palabra 'ejemplo' */
+a[href*="ejemplo"] {
+    color: green;
+}

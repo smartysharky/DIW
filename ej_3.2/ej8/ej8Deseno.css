@@ -1,0 +1,21 @@
+/* Estilos para enlaces con pseudoclases */
+.enlace:link {
+    color: orange;
+    text-decoration: none;
+}
+
+.enlace-hover:hover {
+    color: green;
+    font-weight: bold;
+}
+
+.enlace-focus:focus {
+    color: red;
+    outline: 2px solid red;
+}
+
+/* Estilos para el elemento con la pseudoclase :lang */
+[lang="es"] p {
+    font-style: italic;
+    color: darkred;
+}

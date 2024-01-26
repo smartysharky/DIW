@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón con Animación</title>
+    <style>
+        /* flecha */
+        .arrow-icon {
+            font-size: 36px;
+            color: #3498db;
+            cursor: pointer;
+            position: relative;
+        }
+
+        /* animación */
+        .animation-box {
+            width: 100px;
+            height: 100px;
+            background-color: #e74c3c;
+            color: #fff;
+            text-align: center;
+            line-height: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        /* ocultar la animación inicialmente */
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        /* activar la animación */
+        input[type="checkbox"]:checked + .arrow-icon + .animation-box {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="arrowCheckbox">
+
+    <label for="arrowCheckbox" class="arrow-icon">→</label>
+
+    <div class="animation-box"></div>
+
+</body>
+</html>

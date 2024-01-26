@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content-box {
+    width: 500px;
+    height: 400px;
+    overflow-y: scroll; /*Barra de desplazamiento vertical*/
+    border: 1px solid #ccc;
+    padding: 10px;
+}

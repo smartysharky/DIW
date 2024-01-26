@@ -1,0 +1,14 @@
+#titulo {
+    font-size: 24px;
+    color: blue;
+}
+
+.parrafo {
+    font-size: 16px;
+    color: gray;
+}
+
+#parrafoEspecial {
+    background-color: yellow;
+    font-weight: bold;
+}

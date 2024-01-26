@@ -1,0 +1,29 @@
+/* Pseudoelementos en CSS */
+.first-line-example::first-line {
+    color: blue;
+    font-weight: bold;
+}
+
+.first-line-example::first-letter {
+    font-size: 36px;
+    color: red;
+}
+
+.before-after-example::before {
+    content: "Antes: ";
+    font-weight: bold;
+}
+
+.before-after-example::after {
+    content: " Después.";
+    font-style: italic;
+}
+
+.marker-example::marker {
+    color: green;
+}
+
+.selection-example::selection {
+    background-color: yellow;
+    color: black;
+}

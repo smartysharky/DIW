@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejercicio </title>
+</head>
+
+<body>
+    <h1>Formulario HTML5</h1>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+
+        <label for="genero">Género:</label>
+        <label for="fem">Femenino:
+            <input type="radio" id="fem" name="genero" value="Femenino">
+        </label>
+        <label for="masc">Masculino:
+            <input type="radio" id="masc" name="genero" value="Masculino">
+        </label>
+        <label for="otro">Otro:
+            <input type="radio" id="otro" name="genero" value="Otro">
+        </label>
+        <br><br>
+
+        <label for="lenguaje">Lenguajes de programación:</label>
+        <br>
+        <label for="lenguaje">Java:
+            <input type="checkbox" id="java" name="lenguaje" value="Java">
+        </label>
+        <br>
+        <label for="lenguaje">JavaScript:
+            <input type="checkbox" id="javaS" name="lenguaje" value="JavaScript">
+        </label>
+        <br>
+        <label for="lenguaje">PHP:
+            <input type="checkbox" id="php" name="lenguaje" value="PHP">
+        </label>
+        <br>
+        <label for="lenguaje">C:
+            <input type="checkbox" id="c" name="lenguaje" value="C">
+        </label>
+        <br><br>
+
+        <label for="archivo">Adjunte su curriculum:</label>
+        <input type="file" id="archivo" name="archivo">
+        <br><br>
+
+        <label for="comentario">Historia:</label>
+        <textarea id="historia" name="comentario" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <label for="transporte">Medio de transporte:</label>
+        <select id="transporte" name="transporte">
+            <option value="Coche">Coche</option>
+            <option value="Moto">Moto</option>
+            <option value="Bici">Bici</option>
+        </select>
+        <br><br>
+
+        <label for="tiempo">Tiempo de ruta:</label>
+        <input list="opciones" name="tiempo" id="tiempo">
+        <datalist id="opciones">
+            <option value="<10 min">
+            <option value="10-30min">
+            <option value=">30min">
+        </datalist>
+        <br><br>
+
+        <input type="submit" id="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

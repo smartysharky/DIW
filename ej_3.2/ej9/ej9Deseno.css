@@ -1,0 +1,68 @@
+/* Pseudoclases en CSS */
+.first-child:first-child {
+    color: blue;
+}
+
+.last-child:last-child {
+    color: red;
+}
+
+.first-of-type:first-of-type {
+    font-weight: bold;
+}
+
+.last-of-type:last-of-type {
+    text-decoration: underline;
+}
+
+.only-child:only-child {
+    background-color: yellow;
+}
+
+.only-of-type:only-of-type {
+    font-style: italic;
+}
+
+.empty:empty {
+    background-color: lightgray;
+}
+
+ul:nth-child(odd) li {
+    color: green;
+}
+
+ul:nth-child(even) li {
+    color: orange;
+}
+
+li:nth-last-child(2) {
+    background-color: pink;
+}
+
+p:nth-of-type(3n) {
+    color: purple;
+}
+
+p:nth-last-of-type(3n) {
+    color: brown;
+}
+
+li:not(.first-child) {
+    font-size: 18px;
+}
+
+:root {
+    font-family: Arial, sans-serif;
+}
+
+:enabled {
+    border: 2px solid green;
+}
+
+:disabled {
+    border: 2px solid red;
+}
+
+:checked {
+    background-color: lightblue;
+}

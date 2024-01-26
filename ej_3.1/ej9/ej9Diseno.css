@@ -1,0 +1,34 @@
+.caja1 {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    padding: 10px;
+    /* 10px para todas las direcciones */
+}
+
+.caja2 {
+    width: 200px;
+    height: 100px;
+    background-color: #e74c3c;
+    padding: 20px 10px;
+    /* 20px para arriba y abajo, 10px para
+izquierda y derecha */
+}
+
+.caja3 {
+    width: 200px;
+    height: 100px;
+    background-color: #27ae60;
+    padding: 20px 10px 30px;
+    /* 15px para arriba, 10px para izquierda
+y derecha, 25px para abajo */
+}
+
+.caja4 {
+    width: 200px;
+    height: 100px;
+    background-color: #f1c40f;
+    padding: 25px 50px 30px 100px;
+    /* 25px para arriba, 50px para
+derecha, 30px para abajo, 100px para izquierda */
+}

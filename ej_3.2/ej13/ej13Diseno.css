@@ -1,0 +1,45 @@
+/* a) Enlaces no visitados */
+a {
+    color: green;
+    text-decoration: none;
+    /* Sin subrayar */
+}
+
+/* b) Enlaces al pasar el ratón */
+a:hover {
+    color: red;
+    text-decoration: underline;
+    /* Subrayados al pasar el ratón */
+}
+
+/* c) Enlaces visitados */
+a:visited {
+    color: black;
+    font-weight: bold;
+    /* Negrita */
+}
+
+/* d) Elementos de tipo listado en cursiva */
+ul,
+ol,
+li {
+    font-style: italic;
+    /* Cursiva */
+}
+
+/* e) Títulos (h1, h2, etc.) con clases impares y pares */
+h1:nth-child(odd),
+h2:nth-child(odd),
+h3:nth-child(odd) {
+    color: black;
+    text-decoration: underline;
+    /* Impares: negro y subrayados */
+}
+
+h1:nth-child(even),
+h2:nth-child(even),
+h3:nth-child(even) {
+    color: gray;
+    text-decoration: none;
+    /* Pares: gris y sin subrayar */
+}

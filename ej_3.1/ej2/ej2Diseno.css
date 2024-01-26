@@ -1,0 +1,14 @@
+body {
+    border-width: 10px;
+    border-color: blue;
+    color: red;
+}
+
+h1 {
+    border: inherit;
+}
+
+div {
+    font-family: Verdana;
+    opacity: 0.5;
+}

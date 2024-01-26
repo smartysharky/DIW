@@ -1,0 +1,22 @@
+/* Estilo común para párrafos e imágenes en todos los dispositivos */
+p, img {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+/* Estilo para centrar imágenes solo en dispositivos de pantalla */
+@media screen {
+    img {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+/* Estilo para ocultar elementos al imprimir */
+@media print {
+    header, footer, nav {
+        display: none;
+    }
+}

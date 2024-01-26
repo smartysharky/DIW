@@ -1,0 +1,12 @@
+/* Estilo para ocultar elementos al imprimir */
+header,
+footer,
+nav {
+    display: none;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}

@@ -1,0 +1,14 @@
+/* Pseudoclase :target */
+:target {
+    background-color: lightgreen;
+    border: 2px solid orange;
+}
+
+/* Pseudoclase :nth-child */
+ul li:nth-child(odd) {
+    background-color: yellow;
+}
+
+ul li:nth-child(even) {
+    background-color: pink;
+}
