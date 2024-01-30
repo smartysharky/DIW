@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" type="text/css" href="../bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <title>Modales</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#mi-modal-1">
+                    Abrir modal 1
+                </button>
+
+                <div class="modal fade" id="mi-modal-1" tabindex="1" aria-hidden="true" aria-labelledby="label-modal-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Título del modal</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <h1>Hola Mundo</h1>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-primary">Aceptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#mi-modal-2">
+                    Abrir modal 2
+                </button>
+
+                <div class="modal fade" id="mi-modal-2" tabindex="1" aria-hidden="true" aria-labelledby="label-modal-2"
+                    data-bs-backdrop="static">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Título del modal</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div style="height: 1000px;">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ad sapiente neque
+                                    veritatis modi doloribus! Reiciendis maxime, eligendi ratione quidem, magni
+                                    asperiores maiores odio architecto non perferendis, atque exercitationem alias!
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-primary">Aceptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
